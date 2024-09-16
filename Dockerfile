@@ -4,7 +4,6 @@ MAINTAINER <neundorf@kde.org>
 
 USER root
 
-
 RUN zypper --non-interactive install sudo vi mc \
    python311-pyaml python311-setproctitle  # for kde-builder
 
